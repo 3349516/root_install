@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+         	<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+   	    		android:id="@+id/but1" android:text="/system/app"
+   	    		/>
+         	<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+   	    		android:id="@+id/but1_1" android:text="/data/app"
+   	    		/>
+     </LinearLayout>
+  
+   	
+   	<Button android:layout_width="fill_parent" android:layout_height="wrap_content"
+   	    android:id="@+id/but2" android:text="system install"
+   	    />
+   	<Button android:layout_width="fill_parent" android:layout_height="wrap_content"
+   	    android:id="@+id/but3" android:text="system uninstall"
+   	    />
+   	
+   		<Button android:layout_width="fill_parent" android:layout_height="wrap_content"
+   	    android:id="@+id/but4" android:text="other install"
+   	    />
+   	<Button android:layout_width="fill_parent" android:layout_height="wrap_content"
+   	    android:id="@+id/but5" android:text="other uninstall"
+   	    />
+   	
+   	
+   	<ScrollView  android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+   	    	<TextView android:layout_width="fill_parent" android:layout_height="fill_parent"
+   	    android:id="@+id/info" />
+   	    
+   	</ScrollView>
+   
+
+</LinearLayout>
